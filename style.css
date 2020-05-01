@@ -1,0 +1,102 @@
+*, *::before, *::after{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    --light-background: #F3EED9;
+    --medium-background: #824936;
+    --dark-background: #222C2A;
+}
+
+/* PART-1 */
+.header{
+    background-color: var(--light-background);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subHeading{
+    letter-spacing: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    font-size: 1vmax;
+}
+.mainHeading{
+    color: var(--medium-background);
+    font-family: 'Playfair Display', serif; 
+    font-size: 60px;
+    font-size: 3vmax;
+}
+
+/* PART-2 */
+.section1Heading{
+    text-align: center;
+    color: var(--medium-background);
+    font-size: 2vmax;
+    margin: 4rem 0 2rem 0;
+    font-family: 'Playfair Display', serif;
+}
+.section1Container{
+    text-align: center;
+    color: var(--dark-background);
+    font-size: 1.5vmax;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    padding: 0 5rem 9rem 5rem;
+}
+.section1para + .section1para{
+    margin-left: 1rem;
+}
+
+/* PART-3 */
+.section2Container{
+    text-align: center;
+    background-color: var(--dark-background);
+    color: var(--light-background);
+    display: flex;
+    font-size: 1.5vmax;
+    font-family: 'Roboto', sans-serif;
+    padding: 4rem 5rem 9rem 5rem;
+}
+.section2para + .section2para{
+    margin-left: 4rem;
+}
+.section2para1{
+    width: 50%;
+}
+.section2heading{
+    margin-bottom: 1rem;
+    font-size: 2vmax;
+    font-family: 'Playfair Display', serif;
+}
+.section2Img{
+    width: 100%;
+    height: auto;
+}
+
+/* PART-4 */
+.section3Container{
+    text-align: center;
+    background-color: var(--medium-background);
+    color: var(--light-background);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5vmax;
+    font-family: 'Roboto', sans-serif;
+    padding: 4rem 5rem 9rem 5rem;
+}
+.section3para + .section3para{
+    margin-left: 1rem;
+}
+.section3para1{
+    width: 50%;
+}
+.section3heading{
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
